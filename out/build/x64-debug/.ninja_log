@@ -1,0 +1,13 @@
+# ninja log v5
+6	110	7189188351372404	build.ninja	56a995d4e932ae52
+9	556	7189186809864043	src/Game/CMakeFiles/GameExecutable.dir/GameMain.cpp.obj	da79c6c1d800dd8a
+590	703	7189186811047544	bin/GameExecutable.exe	d806f64d667632d4
+9	15	0	clean	8c45b54705a541e8
+6	558	7189186809874045	src/Engine/CMakeFiles/Engine.dir/Engine.cpp.obj	9f93f15173054521
+558	590	7189186810226764	src/Engine/Engine.lib	87855f797f15ee33
+7	220	7189169913371672	src/Engine/Engine.dll	a05a31c630a842a8
+7	234	7189169913371672	src/Engine/bin/Engine.dll	49c80024453cd3bc
+14	641	7189188606428308	src/Game/CMakeFiles/GameExecutable.dir/GameMain.cpp.obj	da79c6c1d800dd8a
+641	763	7189188607326658	bin/GameExecutable.exe	d806f64d667632d4
+10	455	7189188710773291	src/Game/CMakeFiles/GameExecutable.dir/GameMain.cpp.obj	da79c6c1d800dd8a
+456	565	7189188711627869	bin/GameExecutable.exe	d806f64d667632d4

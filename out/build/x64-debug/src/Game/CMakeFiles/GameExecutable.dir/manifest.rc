@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/Users/Gabe/Desktop/GameEngine-64Bit/out/build/x64-debug/src/Game/CMakeFiles/GameExecutable.dir/embed.manifest"

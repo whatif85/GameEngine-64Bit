@@ -1,0 +1,101 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src/Engine",
+					"jsonFile" : "directory-src.Engine-Debug-d99704a6717bda53cd9a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Engine",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/Game",
+					"jsonFile" : "directory-src.Game-Debug-acba60ce328241d23e92.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/Game",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "GameEngine-64Bit",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Engine::@57eeced369f002faad1a",
+					"jsonFile" : "target-Engine-Debug-84c4a2c659c4b16589c7.json",
+					"name" : "Engine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "GameExecutable::@a929eadd5dd9e671eb94",
+					"jsonFile" : "target-GameExecutable-Debug-4524e868091df83fe260.json",
+					"name" : "GameExecutable",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Users/Gabe/Desktop/GameEngine-64Bit/out/build/x64-debug",
+		"source" : "D:/Users/Gabe/Desktop/GameEngine-64Bit"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

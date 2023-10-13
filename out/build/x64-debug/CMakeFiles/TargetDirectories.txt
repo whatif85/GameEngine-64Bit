@@ -1,0 +1,8 @@
+D:/Users/Gabe/Desktop/GameEngine-64Bit/out/build/x64-debug/CMakeFiles/edit_cache.dir
+D:/Users/Gabe/Desktop/GameEngine-64Bit/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+D:/Users/Gabe/Desktop/GameEngine-64Bit/out/build/x64-debug/src/Engine/CMakeFiles/Engine.dir
+D:/Users/Gabe/Desktop/GameEngine-64Bit/out/build/x64-debug/src/Engine/CMakeFiles/edit_cache.dir
+D:/Users/Gabe/Desktop/GameEngine-64Bit/out/build/x64-debug/src/Engine/CMakeFiles/rebuild_cache.dir
+D:/Users/Gabe/Desktop/GameEngine-64Bit/out/build/x64-debug/src/Game/CMakeFiles/GameExecutable.dir
+D:/Users/Gabe/Desktop/GameEngine-64Bit/out/build/x64-debug/src/Game/CMakeFiles/edit_cache.dir
+D:/Users/Gabe/Desktop/GameEngine-64Bit/out/build/x64-debug/src/Game/CMakeFiles/rebuild_cache.dir

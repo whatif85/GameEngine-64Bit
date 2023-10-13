@@ -1,0 +1,170 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/GameExecutable.exe"
+		},
+		{
+			"path" : "bin/GameExecutable.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"src/Game/CMakeLists.txt",
+			"src/Engine/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 3
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 22,
+				"parent" : 5
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "D:/Users/Gabe/Desktop/GameEngine-64Bit/src/Engine"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "D:/Users/Gabe/Desktop/GameEngine-64Bit/Packages/SFML-2.5.1/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "Engine::@57eeced369f002faad1a"
+		}
+	],
+	"id" : "GameExecutable::@a929eadd5dd9e671eb94",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "src\\Engine\\Engine.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "D:\\Users\\Gabe\\Desktop\\GameEngine-64Bit\\Packages\\SFML-2.5.1\\lib\\sfml-audio-d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "D:\\Users\\Gabe\\Desktop\\GameEngine-64Bit\\Packages\\SFML-2.5.1\\lib\\sfml-graphics-d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "D:\\Users\\Gabe\\Desktop\\GameEngine-64Bit\\Packages\\SFML-2.5.1\\lib\\sfml-window-d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "D:\\Users\\Gabe\\Desktop\\GameEngine-64Bit\\Packages\\SFML-2.5.1\\lib\\sfml-system-d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "GameExecutable",
+	"nameOnDisk" : "GameExecutable.exe",
+	"paths" : 
+	{
+		"build" : "src/Game",
+		"source" : "src/Game"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Game/GameMain.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
